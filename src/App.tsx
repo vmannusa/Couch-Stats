@@ -140,11 +140,11 @@ export default function App(){
                 <div>
                   <input type="text" value={stats[k]} onChange={e=>updateStat(k,e.target.value)} style={{width:64}} />
                 </div>
-            )))
+            ))}
           </div>
         </div>
       </div>
-
+    
       <div>
         <div className="panel card-preview" ref={previewRef as any} style={{padding:20}}>
           <div style={{borderLeft:`6px solid ${accent}`, paddingLeft:12}}>
