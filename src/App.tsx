@@ -131,19 +131,20 @@ export default function App(){
           <button onClick={copyLink}>Copy Link</button>
         </div>
 
-        <div style={{marginTop:12}}>
-          <div className="small">Editable stats</div>
-          <div className="stat-grid">
-            {Object.keys(stats).map((k)=>(
-              <div className="stat" key={k}>
-                <div style={{textTransform:'uppercase', fontSize:12}}>{k}</div>
-                <div>
-                  <input type="text" value={stats[k]} onChange={e=>updateStat(k,e.target.value)} style={{width:64}} />
-                </div>
-            ))}
-          </div>
+<div style={{marginTop:12}}>
+  <div className="small">Editable stats</div>
+  <div className="stat-grid">
+    {Object.keys(stats).map((k)=>(
+      <div className="stat" key={k}>
+        <div style={{textTransform:'uppercase', fontSize:12}}>{k}</div>
+        <div>
+          <input type="text" value={stats[k]} onChange={e=>updateStat(k,e.target.value)} style={{width:64}} />
         </div>
       </div>
+    ))}
+  </div>
+</div>
+
     
       <div>
         <div className="panel card-preview" ref={previewRef as any} style={{padding:20}}>
