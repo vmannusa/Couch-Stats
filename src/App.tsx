@@ -176,5 +176,4 @@ export default function App(){
         <div style={{marginTop:8}} className="small">Preview — use "Download Image" to export a PNG or "Copy Link" to share a reproducible link.</div>
       </div>
     </div>
-  );
-}
+  );</div>)}
