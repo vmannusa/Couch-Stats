@@ -144,8 +144,8 @@ export default function App(){
     ))}
   </div>
 </div>
+      </div>
 
-    
       <div>
         <div className="panel card-preview" ref={previewRef as any} style={{padding:20}}>
           <div style={{borderLeft:`6px solid ${accent}`, paddingLeft:12}}>
@@ -176,4 +176,5 @@ export default function App(){
         <div style={{marginTop:8}} className="small">Preview — use "Download Image" to export a PNG or "Copy Link" to share a reproducible link.</div>
       </div>
     </div>
-  );</div>)}
+  );
+}
