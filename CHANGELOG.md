@@ -1,6 +1,8 @@
 # Couch Stats – Change log
 
 ## 2026-10-15
+- **Fixed layout:** the controls panel wasn't closed in `App.tsx`, so the card preview sat inside it and a stray `);` showed at the bottom of the page. Controls and preview now sit side by side.
+- Added an MIT license.
 - Rewrote the README (features, stat sets, scripts, deploy notes) and added this change log.
 
 ## 0.1.0 – 2025-08-10

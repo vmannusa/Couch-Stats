@@ -60,3 +60,7 @@ Pushes to `main` run the **Deploy Vite App to GitHub Pages** workflow. For it to
 If you rename the repo, update `base` in `vite.config.ts` to match.
 
 See the [change log](CHANGELOG.md) for history.
+
+## License
+
+[MIT](LICENSE)
